@@ -62,13 +62,14 @@ finanzas-ia/
 ### 2. Subir los skills
 - Sube los 3 archivos de `/skills` como archivos de conocimiento del proyecto
 
-### 3. (Opcional pero recomendado) Conectar Google Sheets MCP
-- Activa Google Sheets MCP en las opciones del proyecto
-- El sistema creará automáticamente las pestañas necesarias en la primera sesión
-- Sin MCP el proyecto funciona igual, pero los datos se mantienen solo dentro del chat
+### 3. Google Sheets MCP ✅ (ya activo)
+- Google Sheets MCP está conectado al proyecto
+- El sistema registra cada transacción en tiempo real en la hoja estructurada
+- Ver `skills/google-sheets-structure.md` para la estructura completa de pestañas
 
-### 4. (Opcional) Conectar Google Calendar MCP
-- Permite crear recordatorios de pago directamente en tu calendario
+### 4. Google Calendar MCP 🔜 (próximamente)
+- Permitirá crear recordatorios de pago directamente en el calendario
+- Cuando esté activo, los vencimientos se agregarán automáticamente
 
 ### 5. Primera sesión
 Claude te pedirá:
@@ -95,11 +96,11 @@ Claude te pedirá:
 
 ## Integraciones
 
-| Herramienta | Función | Requerido |
+| Herramienta | Función | Estado |
 |---|---|---|
-| Claude Projects | Motor principal de IA | ✅ Sí |
-| Google Sheets MCP | Base de datos persistente de transacciones | ⚡ Recomendado |
-| Google Calendar MCP | Recordatorios de pago en calendario | 🔧 Opcional |
+| Claude Projects | Motor principal de IA | ✅ Activo |
+| Google Sheets MCP | Base de datos persistente de transacciones | ✅ Activo |
+| Google Calendar MCP | Recordatorios de pago en calendario | 🔜 Próximamente |
 
 ---
 
